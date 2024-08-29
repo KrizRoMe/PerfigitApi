@@ -23,3 +23,6 @@ m-create:
 
 m-migrate:
 	python manage.py migrate $(app)
+
+requirements:
+	pipreqs . --force
